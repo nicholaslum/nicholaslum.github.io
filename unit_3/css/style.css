@@ -3,15 +3,14 @@ body{
 	background:url("http://i66.tinypic.com/35bb0ut.jpg") no-repeat;
 	background-size: cover;
 	background-color: white; 
-	background-size: 80em;
+	background-size: 75em;
 	background-position: center;
 	font-family: Arial;
+	font-size: 18px;
 }
 h1 {
 	color: white;
-	font-size: 40px;
 	text-align: right;
-
 }
 
 h2 {
@@ -22,17 +21,25 @@ h3 {
 
 }
 
-h4 {
-	color: navy;
-}
-h5 {
-	color: red;
-	font-size: 25;
-}
-
 p {
 
 }
+
+strong {
+	color: yellow;
+	font-size: 20;
+}
+first {
+	color: red;
+}
+second {
+	color: navy;
+}
+
+ul {
+	list-style: square;
+}
+
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
