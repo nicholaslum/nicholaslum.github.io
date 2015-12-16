@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+body{ 
+	background:url("http://i64.tinypic.com/semyzc.jpg") no-repeat;
+	background-color: white; 
+	background-size: 75em;
+	background-position: right;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+}
+h1 {
+	color: white;
+	text-align: right;
+	font-family: Arial, sans-serif;
+}
+
+h2 {
+	text-align: right;
+	font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
+strong {
+	color: yellow;
+	font-size: 20;
+}
+first {
+	color: red;
+}
+second {
+	color: navy;
+}
+thin {
+	font-variant: small-caps;
+}
+ul {
+	list-style: square;
+}
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+

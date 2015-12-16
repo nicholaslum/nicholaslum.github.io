@@ -5,7 +5,7 @@ body{
 	background-color: white; 
 	background-size: 75em;
 	background-position: center;
-	font-family: Arial;
+	font-family: url(https://fonts.googleapis.com/css?family=Ubuntu);
 	font-size: 18px;
 }
 h1 {
