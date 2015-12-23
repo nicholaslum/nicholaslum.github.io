@@ -30,24 +30,34 @@ p {
 }
 
 header {
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 0px;
 
 }
 
 nav {
-	background: white;
-	padding: .5em;
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 5px;
 }
 
 aside {
-
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 0px;
 }
 
 article {
-	
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 0px;
 }
 
 footer{
-
+background-color: #FF957E;
+    border: 1px black solid;
+    padding: 0px;
 }
 
 strong {
