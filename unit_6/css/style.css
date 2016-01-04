@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+body{ 
+	background:url("http://i64.tinypic.com/semyzc.jpg") no-repeat;
+	background-color: white; 
+	background-size: 75em;
+	background-position: right;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+}
+h1 {
+	color: white;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+	font-size: 25px;
+
+}
+
+p {
+
+}
+
+header {
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 0px;
+
+}
+
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 5px;
+}
+
+aside {
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 0px;
+  
+
+}
+
+article {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 0px;
+   
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 45%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 45%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer{
+background-color: #FF957E;
+    border: 1px black solid;
+    padding: 0px;
+}
+
+strong {
+	color: yellow;
+	font-size: 20;
+}
+first {
+	color: red;
+}
+second {
+	color: navy;
+}
+thin {
+	font-variant: small-caps;
+}
+ul {
+	list-style: square;
+
+}
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
