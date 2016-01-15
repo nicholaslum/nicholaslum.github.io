@@ -1,11 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
 @import url(https://fonts.googleapis.com/css?family=Oswald);
-
+* { margin:0; padding:0; box-sizing:border-box; }
+html { height:100%; }
 body{ 
-	background:url("http://i64.tinypic.com/semyzc.jpg") no-repeat;
-	background-color: white; 
-	background-size: 75em;
-	background-position: right;
+	background:url("http://i64.tinypic.com/semyzc.jpg") no-repeat #fff bottom;
+	background-size:cover;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 16px;
 }
@@ -63,22 +62,20 @@ article {
     padding: 20px;
 }
 
-#left {
+.left {
     background-color: #E582A2;
     border: 1px black solid;
-    padding: 20px;
-    float: none;
-    width: 45%;
-
-    
+    padding: 2em;
+    float: left;
+    width: 50%;
 }
 
-#right {
+.right {
     background-color: #E55B88;
     border: 1px black solid;
-    padding: 20px;
-    float: none;
-    width: 45%;
+    padding: 4em;
+    float: left;
+    width: 50%;
  
 }
 
@@ -92,29 +89,18 @@ article {
 }
 
 footer{
-background-color: #FF957E;
-    border: 1px black solid;
-    padding: 0px;
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 0px;
 }
 
 strong {
 	color: yellow;
-	font-size: 20;
+	font-size: 20px;
 }
-first {
-	color: red;
-}
-second {
-	color: navy;
-}
-thin {
-	font-variant: small-caps;
-}
+
 ul {
 	list-style: square;
-
 }
-
-<link rel="stylesheet" type="text/css" href="css/style.css">
 
 
