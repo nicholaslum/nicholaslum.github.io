@@ -66,21 +66,20 @@ article {
 #left {
     background-color: #E582A2;
     border: 1px black solid;
-    padding: 2em;
+    padding: 20px;
     float: none;
     width: 45%;
-    text-align: center;
-    font-size: 1em;
+
+    
 }
 
 #right {
     background-color: #E55B88;
     border: 1px black solid;
-    padding: 2em;
+    padding: 20px;
     float: none;
     width: 45%;
-    text-align: center;
-    font-size: 1em;
+ 
 }
 
 .clearfix:after {
@@ -118,9 +117,4 @@ ul {
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
-@media only screen and (max-width: 480px) {
-    .article {
-        float: none;
-        width: auto;
-    }
-}
+
