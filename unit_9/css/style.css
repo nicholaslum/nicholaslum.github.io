@@ -153,11 +153,14 @@ footer {
     }
 }
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    body {
+        font-size: 3em
+    }
     h1 {
-        font-size: 3em;
+        font-size: 5em;
     }
     nav {
-        text-align: left;
+        text-align: center;
     }
     a {
         color: #01579B;
