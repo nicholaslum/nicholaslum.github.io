@@ -154,10 +154,10 @@ footer {
 }
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) {
     body {
-        font-size: 3em
+        font-size: 5em;
     }
     h1 {
-        font-size: 5em;
+        font-size: 7em;
     }
     nav {
         text-align: center;
