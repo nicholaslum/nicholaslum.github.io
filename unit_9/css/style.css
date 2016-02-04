@@ -152,6 +152,53 @@ footer {
         width: 10em;   
     }
 }
+@media screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    body {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 4em;
+    }
+    nav {
+        text-align: center;
+    }
+    a {
+        color: #01579B;
+    }
+    .leftone {
+        color: #01579B;
+        float: none;
+        width: auto;
+    }         
+    .rightone {
+        float: none;
+        width: auto;
+    }
+    .lefttwo {
+        background-color: white;
+        color: #01579B;
+        float: none;
+        width: auto;
+    }         
+    .righttwo {
+        background-color: #01579B;
+        color: white;
+        float: none;
+        width: auto;
+        min-height: 7em;
+        max-height: 7em;
+    }
+    #picone {
+        border: .5em black solid;
+        width: 10em;   
+    }
+    #pictwo {
+        border: .5em black solid;
+        width: 10em;   
+    }
+}
+
+
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) {
     body {
         font-size: 25px;
