@@ -142,6 +142,8 @@ footer {
         color: #01579B;
         float: none;
         width: auto;
+        min-height: 7em;
+        max-height: 7em;
     }         
     .apparel {
         background-color: white;
@@ -198,6 +200,8 @@ footer {
         color: #01579B;
         float: none;
         width: auto;
+        min-height: 7em;
+        max-height: 7em;
     }         
     .apparel {
         background-color: white;
