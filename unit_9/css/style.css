@@ -124,16 +124,22 @@ footer {
         color: #01579B;
         float: none;
         width: auto;
+        min-height: auto;
+        max-height: none;
     }         
     .rightone {
         float: none;
         width: auto;
+        min-height: auto;
+        max-height: none;
     }
     .lefttwo {
         background-color: white;
         color: #01579B;
         float: none;
         width: auto;
+        min-height: auto;
+        max-height: none;
     }         
     .righttwo {
         background-color: #01579B;
@@ -142,6 +148,8 @@ footer {
         width: auto;
         min-height: 7em;
         max-height: 7em;
+        min-height: auto;
+        max-height: none;
     }
     #picone {
         border: .5em black solid;
@@ -169,24 +177,30 @@ footer {
         color: #01579B;
         float: none;
         width: auto;
+        min-height: auto;
+        max-height: none;
     }         
     .rightone {
         float: none;
         width: auto;
+        min-height: auto;
+        max-height: none;
     }
     .lefttwo {
         background-color: white;
         color: #01579B;
         float: none;
         width: auto;
+        min-height: auto;
+        max-height: none;
     }         
     .righttwo {
         background-color: #01579B;
         color: white;
         float: none;
         width: auto;
-        min-height: 7em;
-        max-height: 7em;
+        min-height: auto;
+        max-height: none;
     }
     #picone {
         border: .5em black solid;

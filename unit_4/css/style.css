@@ -141,26 +141,32 @@ footer {
         color: #01579B;
         float: none;
         width: auto;
-        min-height: 7em;
-        max-height: 7em;
+        min-height: auto;
+        max-height: none;
     }         
     .apparel {
         background-color: white;
         color: #01579B;
         float: none;
         width: auto;
+        min-height: auto;
+        max-height: none;
     }
     .calendar {
         background-color: white;
         color: #01579B;
         float: none;
         width: auto;
+        min-height: auto;
+        max-height: none;
     }         
     .cups {
         background-color: white;
         color: #01579B;
         float: none;
         width: auto;
+        min-height: auto;
+        max-height: none;
     }
     #picone {
         width: 14em;   
@@ -201,26 +207,32 @@ footer {
         color: #01579B;
         float: none;
         width: auto;
-        min-height: 7em;
-        max-height: 7em;
+        min-height: auto;
+        max-height: none;
     }         
     .apparel {
         background-color: white;
         color: #01579B;
         float: none;
         width: auto;
+        min-height: auto;
+        max-height: none;
     }
     .calendar {
         background-color: white;
         color: #01579B;
         float: none;
         width: auto;
+        min-height: auto;
+        max-height: none;
     }         
     .cups {
         background-color: white;
         color: #01579B;
         float: none;
         width: auto;
+        min-height: auto;
+        max-height: none;
     }
     #picone {
         width: 14em;   
