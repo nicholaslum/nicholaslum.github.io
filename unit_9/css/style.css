@@ -152,7 +152,7 @@ footer {
         width: 10em;   
     }
 }
-@media screen and (min-device-width: 320px) and (max-device-width: 736px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 780px) {
     body {
         font-size: 25px;
     }
