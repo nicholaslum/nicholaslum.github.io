@@ -79,7 +79,7 @@ footer {
     color: white;
     font-size: 100%;
 }    
-.apparel {
+.leftone {
     background-color: #01579B;
     color: white;
     border: 1px black solid;
@@ -90,7 +90,7 @@ footer {
     max-height: 14em;
 
 }
-.rightone {
+.apparel {
     background-color: white;
     color: #01579B; 
     border: 1px black solid;
@@ -137,13 +137,13 @@ footer {
     a {
         color: #01579B;
     }
-    .apparel {
+    .leftone {
         background: white;
         color: #01579B;
         float: none;
         width: auto;
     }         
-    .rightone {
+    .apparel {
         background-color: white;
         color: #01579B;
         float: none;
@@ -194,13 +194,13 @@ footer {
     a {
         color: #01579B;
     }
-    .apparel {
+    .leftone {
         background: white;
         color: #01579B;
         float: none;
         width: auto;
     }         
-    .rightone {
+    .apparel {
         background-color: white;
         color: #01579B;
         float: none;
