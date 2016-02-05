@@ -1,72 +1,240 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
 @import url(https://fonts.googleapis.com/css?family=Oswald);
-
-body{ 
-	background:url("http://i64.tinypic.com/semyzc.jpg") no-repeat;
-	background-color: white; 
-	background-size: 75em;
-	background-position: right;
+* { margin:0; padding:0; box-sizing: border-box; }
+html { height:100%; }
+body { 
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 18px;
+	font-size: 100%;
+    color: #01579B;
 }
 h1 {
 	color: white;
 	text-align: center;
 	font-family: Arial, sans-serif;
+    font-size: 5em;
 }
-
 h2 {
 	text-align: center;
 	font-family: 'Oswald', sans-serif;
 }
-
-h3 {
-	font-size: 25px;
-
+a {
+    color: #01579B;
 }
-
-p {
-
-}
-
 header {
-
+	background-color: #01579B;
+    border: 1px black solid;
+    padding: 0px;
 }
-
 nav {
-	background: white;
-	padding: .5em;
+    background-color: white;
+    color: #01579B;
+    border: 1px black solid;
+    padding: 1em;
+    text-align: center;
 }
-
-aside {
-
-}
-
-article {
-	
-}
-
-footer{
-
-}
-
-strong {
-	color: yellow;
-	font-size: 20;
-}
-first {
-	color: red;
-}
-second {
-	color: navy;
-}
-thin {
-	font-variant: small-caps;
+section {
+    background-color: #01579B;
+    color: white;
+    border: 1px black solid;
+    padding: 0px;
+    text-align: center;
 }
 ul {
-	list-style: square;
+    list-style: square;
+}
+footer {
+    border: 1px black solid;
+    padding: 1em;
+    text-align: center;
+}
+#logo {
+    width: 1em;
+}
+#picone {
+    width: 15em;
+    position: center;  
+}
+#pictwo {
+    width: 12em;
+    position: center;  
+}
+#picthree {
+    border: 1px black solid;
+    width: 10em;
+    position: center;  
+}
+#picfour {
+    border: 1px black solid;
+    width: 11em;
+    position: center;  
+}
+#picfive {
+    width: 8em;   
+}
+#picsix{
+    width: 8em;  
+}
+.slogan {
+    text-align: center;
+    color: white;
+    font-size: 100%;
+}    
+.apparel {
+    background-color: #01579B;
+    color: white;
+    border: 1px black solid;
+    padding: 2em;
+    float: left;
+    width: 50%;
+    min-height: 14em;
+    max-height: 14em;
 
 }
+.rightone {
+    background-color: white;
+    color: #01579B; 
+    border: 1px black solid;
+    padding: 2em;
+    float: right;
+    width: 50%;
+    min-height: 14em;
+    max-height: 14em;
+}
+.calendar {
+    background-color: white;
+    color: #01579B;
+    padding: 2em;
+    float: left;
+    width: 50%;
+    min-height: 16em;
+    max-height: 16em;
+    text-align: center;
+}
+.cups {
+    background-color: #01579B;
+    color: white;
+    padding: 2em;
+    float: right;
+    width: 50%;
+    min-height: 16em;
+    max-height: 16em;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+@media screen and (max-width: 1010px) {
+    h1 {
+        font-size: 3em;
+    }
+    nav {
+        text-align: left;
+    }
+    a {
+        color: #01579B;
+    }
+    .apparel {
+        background: white;
+        color: #01579B;
+        float: none;
+        width: auto;
+    }         
+    .rightone {
+        background-color: white;
+        color: #01579B;
+        float: none;
+        width: auto;
+    }
+    .calendar {
+        background-color: white;
+        color: #01579B;
+        float: none;
+        width: auto;
+    }         
+    .cups {
+        background-color: white;
+        color: #01579B;
+        float: none;
+        width: auto;
+    }
+    #picone {
+        width: 14em;   
+    }
+    #pictwo {
+       width: 11em;   
+    }
+    #picthree {
+        width: 10em;   
+    }
+    #picfour {
+       width: 10em;   
+    }
+    #picfive {
+        width: 8em;   
+    }
+    #picsix {
+       width: 8em;   
+    }
 
-<link rel="stylesheet" type="text/css" href="css/style.css">
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 736px) {
+    body {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 4em;
+    }
+    nav {
+        text-align: center;
+    }
+    a {
+        color: #01579B;
+    }
+    .apparel {
+        background: white;
+        color: #01579B;
+        float: none;
+        width: auto;
+    }         
+    .rightone {
+        background-color: white;
+        color: #01579B;
+        float: none;
+        width: auto;
+    }
+    .calendar {
+        background-color: white;
+        color: #01579B;
+        float: none;
+        width: auto;
+    }         
+    .cups {
+        background-color: white;
+        color: #01579B;
+        float: none;
+        width: auto;
+    }
+    #picone {
+        width: 14em;   
+    }
+    #pictwo {
+       width: 11em;   
+    }
+    #picthree {
+        width: 10em;   
+    }
+    #picfour {
+       width: 10em;   
+    }
+    #picfive {
+        width: 8em;   
+    }
+    #picsix {
+       width: 8em;   
+    }
 
+}
